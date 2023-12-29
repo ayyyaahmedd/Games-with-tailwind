@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>Tailwind</title>
+</head>
+
+<body class="text-gray-300 bg-gray-900">
+    <div class="main-container px-10 grid grid-cols-3">
+        <div class="navigation text-right pt-3">
+            <h2 class="title sm:text-2xl md:text-4xl font-bold p-5 border-b-2 border-gray-500 mb-5">Tailwind project</h2>
+
+            <div class="links">
+                <div class="link flex justify-end items-center px-5 py-3 border-r-2 cursor-pointer bg-gray-500 bg-opacity-25 transition ease-out duration-200">
+                    <a class="text font-semibold text-gray-50">Home</a>
+                    <div class="icon ml-2 text-xl"><i class='bx bx-home-heart'></i></div>
+                </div>
+                <div class="link flex justify-end items-center px-5 py-3 cursor-pointer hover:bg-gray-500 hover:bg-opacity-25 transition ease-out duration-200">
+                    <a class="text">About</a>
+                    <div class="icon ml-2 text-xl"><i class='bx bx-help-circle'></i></div>
+                </div>
+                <div class="link flex justify-end items-center px-5 py-3 cursor-pointer hover:bg-gray-500 hover:bg-opacity-25 transition ease-out duration-200">
+                    <a class="text">Contact</a>
+                    <div class="icon ml-2 text-xl"><i class='bx bx-mail-send' ></i></div>
+                </div>
+            </div>
+        </div>
+    
+        <main class="col-span-2 pl-8 pt-7 ">
+            <header class="flex justify-end md:justify-between items-start">
+                <div class="title hidden md:block">
+                    <div class="main-title text-6xl font-bold">Games</div>
+                    <div class="sub-title text-3xl font-semibold text-red-500">For Gamers</div>
+                </div>
+                <div class="user flex justify-end gap-5">
+                    <button class="login font-semibold text-primary btn hover:bg-primary hover:text-white transition ease-out duration-200">Log in</button>
+                    <button class="signup font-semibold text-primary btn  hover:bg-primary hover:text-white transition ease-out duration-200">Sign up</button>
+                </div>
+            </header>
+    
+            <div class="games">
+                <section class="mt-7">
+                    <h2 class="title font-bold text-3xl text-orange-300 py-5 border-b-2 border-orange-300 mb-5">Latest Games</h2>
+                    
+                    
+                    <div class="cards grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+                        <div class="card ">
+                            
+                            <div class=" image h-full w-full"><img src="/dist/images/437455_O.jpg" class="h-full w-full object-cover" /></div>
+                            
+                            <div class=" title">
+                                <p class="main-title font-bold text-xl">Grand Theft Auto VI (GTA)</p>
+                                <p class="sub-title ">action-adventure games </p>
+                            </div>
+    
+                            <div class="badge ">
+                                <span class="icon"><i class='bx bx-star' ></i></span>
+                                <span >4.9/5</span>
+                            </div>
+                        </div>
+    
+                        <div class="card ">
+                            
+                            <div class=" image h-full w-full"><img src="/dist/images/cod-modern-warfare-2019.jpg" class="h-full w-full object-cover" /></div>
+                            
+                            <div class=" title">
+                                <p class="main-title font-bold text-xl">Call of Duty (COL)</p>
+                                <p class="sub-title ">The game simulates the infantry and combined arms warfare of World War II </p>
+                            </div>
+    
+                            <div class="badge ">
+                                <span class="icon"><i class='bx bx-star' ></i></span>
+                                <span >4.5/5</span>
+                            </div>
+                        </div>
+    
+                        <div class="card ">
+                            
+                            <div class=" image h-full w-full"><img src="/dist/images/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.avif" class="h-full w-full object-cover" /></div>
+                            
+                            <div class=" title">
+                                <p class="main-title font-bold text-xl">Minecraft</p>
+                                <p class="sub-title ">3D sandbox game</p>
+                            </div>
+    
+                            <div class="badge ">
+                                <span class="icon"><i class='bx bx-star' ></i></span>
+                                <span >3.5/5</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+                <section class="mt-7 font-bodyFont">
+                    <div class="title  font-bold text-3xl text-orange-300 py-5 border-b-2 border-orange-300 mb-5">Most Popular</div>
+                    <div class="cards grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+                        <div class="card ">
+                            
+                            <div class=" image h-full w-full"><img src="/dist/images/Lol-best-online-game-2023.jpeg" class="h-full w-full object-cover" /></div>
+                            
+                            <div class=" title">
+                                <p class="main-title font-bold text-xl">League of Legends (LOL)</p>
+                                <p class="sub-title "> online battle arena video game </p>
+                            </div>
+    
+                            <div class="badge ">
+                                <span class="icon"><i class='bx bx-star' ></i></span>
+                                <span >4.5/5</span>
+                            </div>
+                        </div>
+    
+                        <div class="card ">
+                            
+                            <div class=" image h-full w-full"><img src="/dist/images/pubg-mobile-game-image-5.jpg" class="h-full w-full object-cover" /></div>
+                            
+                            <div class=" title">
+                                <p class="main-title font-bold text-xl">PlayerUnknown's Battlegrounds (Pubg)</p>
+                                <p class="sub-title ">battle royale video game </p>
+                            </div>
+    
+                            <div class="badge ">
+                                <span class="icon"><i class='bx bx-star' ></i></span>
+                                <span >4/5</span>
+                            </div>
+                        </div>
+    
+                        <div class="card ">
+                            
+                            <div class=" image h-full w-full"><img src="/dist/images/among-us-vr-imposter-next-to-body.webp" class="h-full w-full object-cover" /></div>
+                            
+                            <div class=" title">
+                                <p class="main-title font-bold text-xl">Among Us</p>
+                                <p class="sub-title ">online multiplayer social deduction </p>
+                            </div>
+    
+                            <div class="badge ">
+                                <span class="icon"><i class='bx bx-star' ></i></span>
+                                <span >3.5/5</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+    
+            <div class="load-more flex justify-center py-2 mt-12 mb-10 hover:bg-primary hover:text-black">
+                <a class="font-semibold text-xl  transition ease-out duration-200">Load More</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
